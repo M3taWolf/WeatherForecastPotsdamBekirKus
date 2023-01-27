@@ -11,6 +11,8 @@
 		3D3AD3002981540E008E9D98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD2FF2981540E008E9D98 /* ContentView.swift */; };
 		3D3AD3022981540F008E9D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3AD3012981540F008E9D98 /* Assets.xcassets */; };
 		3D3AD3052981540F008E9D98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3AD3042981540F008E9D98 /* Preview Assets.xcassets */; };
+		3D3AD30C29815434008E9D98 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD30B29815434008E9D98 /* Global.swift */; };
+		3D3AD30E29815453008E9D98 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD30D29815453008E9D98 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3D3AD2FF2981540E008E9D98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D3AD3012981540F008E9D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D3AD3042981540F008E9D98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D3AD30B29815434008E9D98 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		3D3AD30D29815453008E9D98 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				3D3AD2FD2981540E008E9D98 /* WeatherForecastPotsdamBekirKusApp.swift */,
 				3D3AD2FF2981540E008E9D98 /* ContentView.swift */,
+				3D3AD30D29815453008E9D98 /* Weather.swift */,
+				3D3AD30B29815434008E9D98 /* Global.swift */,
 				3D3AD3012981540F008E9D98 /* Assets.xcassets */,
 				3D3AD3032981540F008E9D98 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3AD30E29815453008E9D98 /* Weather.swift in Sources */,
 				3D3AD3002981540E008E9D98 /* ContentView.swift in Sources */,
 				3D3AD2FE2981540E008E9D98 /* WeatherForecastPotsdamBekirKusApp.swift in Sources */,
+				3D3AD30C29815434008E9D98 /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
